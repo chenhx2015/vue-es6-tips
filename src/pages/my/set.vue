@@ -15,9 +15,6 @@ export default {
   methods: {
     // 一行代码去重
     dedupeArray(oldArray) {
-      // let set = new Set(oldArray)
-      // console.log(set)
-      // console.log('set type --', set instanceof Array)
       this.newSet = Array.from(new Set(oldArray))
       console.log('newSet type --', this.newSet instanceof Array)
     }
